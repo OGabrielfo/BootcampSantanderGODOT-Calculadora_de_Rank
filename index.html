@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Nível de Herói</title>
+</head>
+<body>
+    <section id="section">
+        <h1>Nível de Herói</h1>
+        <form onsubmit="calcular()">
+            <label for="nome">Nome</label>
+            <input required id="nome" type="text">
+            <label for="vitorias">Vitórias</label>
+            <input required id="vitorias" type="number">
+            <label for="derrotas">Derrotas</label>
+            <input required id="derrotas" type="number">
+            <button type="submit">Calcular</button>
+        </form>
+        <p id="resultado"></p>
+    </section>
+</body>
+</html>
